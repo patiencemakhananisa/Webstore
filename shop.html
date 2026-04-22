@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Faith Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">
+      <h1>Faith Wear Store</h1>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cart">
+      <i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <!-- Shop Section -->
+  
+    <section class="products">
+    <h2>Shop Our Collection</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/liveforthegloryfadedhoodie.jpg" alt="A Black Live for His glory Hoodie">
+        <h3>Psalm Black Hoodie</h3>
+        <p>R450</p>
+        <button onclick="addToCart('Psalm Black Hoodie', 250)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="images/boldpsalm31hoodie.jpg" alt="Black Psalm Hoodie">
+        <h3>Everyday Hoodie</h3>
+        <p>R400</p>
+        <button onclick="addToCart('Everyday Hoodie', 400)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="images/totebag.jpg" alt="A Black Tote Vag">
+        <h3>Tote Bag</h3>
+        <p>R150</p>
+        <button onclick="addToCart('Tote Bag', 150)">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <img src="images/whitepsalmcap.jpg" alt="Psalm White Cap">
+        <h3>Psalm Cap</h3>
+        <p>R110</p>
+        <button onclick="addToCart('Cap', 120)">Add to Cart</button>
+      </div>
+      
+      <div class="card">
+        <img src="images/psalmcap.jpg" alt="Psalm Cap">
+        <h3>Psalm Cap</h3>
+        <p>R120</p>
+        <button onclick="addToCart('Cap', 120)">Add to Cart</button>
+      </div>
+      
+      <div class="card">
+        <img src="images/Godnationhat.jpg" alt="Journal">
+        <h3>Bucket Hat</h3>
+        <p>R120</p>
+        <button onclick="addToCart('Bucket Hat', 120)">Add to Cart</button>
+      </div>
+      
+      <div class="card">
+        <img src="images/leathernationhat.jpg" alt="Leather Buckethat">
+        <h3>Black Leather Bucket Hat</h3>
+        <p>R120</p>
+        <button onclick="addToCart('Leather Bucket Hat', 120)">Add to Cart</button>
+      </div>
+      
+      <div class="card">
+        <img src="images/floraldenim.png" alt="Floral Denim Jacket">
+        <h3>Floral Denim Jacket</h3>
+        <p>R450</p>
+        <button onclick="addToCart('Floral Denim Jacket', 120)">Add to Cart</button>
+      </div>
+      
+       <div class="card">
+        <img src="images/blackdenim.png" alt="Black Psalm Denim">
+        <h3>Black Psalm Denim Jacket</h3>
+        <p>R450</p>
+        <button onclick="addToCart('Black Denim Jacket', 120)">Add to Cart</button>
+      </div>
+      
+      <div class="card">
+        <img src="images/Four water bottles in pink, blue, black and white with the verse Psalm 1_3 _20250713_210832_0000.jpg" width="500" heihgt="500" alt="Colorful water bottles">
+        <h3>Colorful Water Bottles</h3>
+        <p>R120</p>
+        <button onclick="addToCart('Water Bottles', 120)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Faith Wear Store | Built with 💚 & Faith</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
